@@ -1,0 +1,124 @@
+$center-text: center;
+$font-20: 20px;
+$font-22: 22px;
+$font-24: 24px;
+$green: green;
+$red: red;
+$border-black: 1px solid black;
+$flex-display: flex;
+
+* {
+  box-sizing: border-box;
+  text-align: $center-text;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+  font-size: $font-20;
+}
+  
+
+p, code {
+  font-size: $font-22;
+}
+  
+
+div.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+ 
+
+.header__ul {
+  display: $flex-display;
+  justify-content: $center-text;
+}
+
+
+.name {
+  color: $green;
+  font-family: Tahoma;
+}
+ 
+
+.span__1 {
+  font-family: 'Babylonica', cursive;
+  font-size: medium;
+}
+
+
+.span__2 {
+  font-family: 'Noto Serif Ahom', serif;
+  font-size: smaller;
+}
+ 
+
+.span__3 {
+  font-family: 'Julee', cursive;
+  font-size: small;
+}
+  
+
+.span__4 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: larger;
+}
+  
+
+.h6__mame {
+  display: $flex-display;
+  justify-content: $center-text;
+  align-items: center;
+}
+
+
+div {
+  border: $border-black;
+  padding: 20px;
+}
+
+
+.ul__normal {
+  align-items: center;
+  display: $flex-display;
+  justify-content: space-around;
+
+}
+ 
+
+.bad__ul, .good__ul {
+  list-style: normal;
+  text-align: start;
+
+}
+ 
+
+a {
+  padding: 20px;
+  font-size: $font-24;
+}
+ 
+
+a:hover {
+  cursor: pointer;
+  color: $red;
+
+}
+
+
+.max {
+  padding: 0;
+  margin: 0;
+
+}
+  
+
+hr {
+  width: 100%;
+}

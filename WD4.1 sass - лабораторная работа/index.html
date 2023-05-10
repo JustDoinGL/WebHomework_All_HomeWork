@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.scss">
+    <title>Это веб-страница</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <a name="top"></a>
+            <div>
+                <a href="#bottom">Jump to bottom of page</a>
+            </div>
+            <h1>Здравствуйте, меня зовут <span class="name"> Чулокв Андрей</span>!</h1>
+            <ul class="header__ul">
+                <li style="color:red;">1</li>
+                <li style="color:green;">2</li>
+                <li style="color:blue;">3</li>
+                <li style="color:orange;">4</li>
+                <li style="color:magenta;">5</li>
+                <li style="color:cyan;">6</li>
+                <li style="color:purple;">7</li>
+                <li style="color:gray;">8</li>
+                <li style="color:pink;">9</li>
+                <li style="color:brown;">10</li>
+            </ul>
+            <h2>When Was This Web Page Created?</h2>
+            <p>This web page was created on <span id="date"></span>.</p>
+            <script>
+                document.getElementById("date").innerHTML = new Date().toLocaleDateString();
+            </script>
+            <div>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni et veritatis tenetur atque, error
+                    consequatur nisi eos vel totam ratione saepe odio consequuntur dolores maxime a, quaerat qui
+                    molestiae
+                    molestias.
+                </p>
+            </div>
+            <div>
+                <pre>
+                    <code>
+                    let x = 5; 
+                    let y = 10;
+                    let z = x + y;
+                    
+                    console.log(z); //outputs 15<br>
+                    </code>
+                </pre>
+            </div>
+            <p>
+                <span class="span__1"> Lorem ipsum dolor sit amet.</span>
+                <span class="span__2"> Reprehenderit nulla labore tempore exercitationem.</span>
+                <span class="span__3"> Quae delectus inventore dolore neque.</span>
+                <span class="span__4"> Aliquid minima pariatur nobis perspiciatis.</span>
+            </p>
+            <p>
+                Книга, называемая <u> "Винни-Пух" А.А. Милна </u>, повествует о приключениях
+                <strong><em>дружной</em></strong> группы
+                друзей-животных в лесу. <strong><em> Захватывающая</em></strong> история о дружбе, мудрости и правде,
+                она навсегда вошла в <strong><em>золотую </em></strong> коллекцию детских классик.
+            </p>
+            <div class="h6__mame">
+                <h1>A</h1>
+                <h2>N</h2>
+                <h3>D</h3>
+                <h4>R</h4>
+                <h5>E</h5>
+                <h6>W</h6>
+            </div>
+            <div class="#">
+                <p class="pow">
+                    1<sup>2</sup> = 1 <br>
+                    2<sup>2</sup> = 4 <br>
+                    3<sup>2</sup> = 9 <br>
+                    4<sup>2</sup> = 16 <br>
+                    5<sup>2</sup> = 25 <br>
+                    6<sup>2</sup> = 36 <br>
+                    7<sup>2</sup> = 49 <br>
+                    8<sup>2</sup> = 64 <br>
+                    9<sup>2</sup> = 81 <br>
+                    10<sup>2</sup> = 100 <br>
+                    11<sup>2</sup> = 121 <br>
+                    12<sup>2</sup> = 144 <br>
+                    13<sup>2</sup> = 169 <br>
+                    14<sup>2</sup> = 196 <br>
+                    15<sup>2</sup> = 225 <br>
+                    16<sup>2</sup> = 256 <br>
+                    17<sup>2</sup> = 289 <br>
+                    18<sup>2</sup> = 324 <br>
+                    19<sup>2</sup> = 361 <br>
+                    20<sup>2</sup> = 400
+                </p>
+            </div>
+            <div>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+                <h1 class="badName"></h1>
+            </div>
+            <div>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+                <h1 class="goodName"></h1>
+            </div>
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, officia.</p>
+                &nbsp;<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis maxime expedita veniam.</p>
+            </div>
+            <div class="ul__normal">
+                <ul>
+                    <li class="bad__ul"></li>
+                    <li class="bad__ul"></li>
+                    <li class="bad__ul"></li>
+                    <li class="bad__ul"></li>
+                </ul>
+                <ul>
+                    <li class="good__ul"></li>
+                    <li class="good__ul"></li>
+                    <li class="good__ul"></li>
+                    <li class="good__ul"></li>
+                </ul>
+            </div>
+            <div class="max">
+                <h1>Lorem</h1>
+                <hr />
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente facilis atque harum, culpa sed
+                    nostrum commodi totam voluptates voluptatibus hic eveniet assumenda accusamus perferendis neque
+                    repudiandae, fuga eius accusantium consequatur, labore animi earum? Reiciendis eligendi quibusdam
+                    ipsa impedit numquam non hic illum excepturi dolore deserunt?
+                </p>
+            </div>
+            <div class="#">
+                <pre>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe repudiandae assumenda consequatur.
+
+                   Lorem, ipsum.
+
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, reprehenderit!
+                  </pre>
+            </div>
+            <div class="#">
+                <blockquote>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident repellat dicta qui cum.
+                    Repellendus officia, harum cumque facere repellat unde quidem est explicabo voluptatibus facilis
+                    animi dolor numquam? Necessitatibus, vero.
+                </blockquote>
+                <q>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium quod dolorum magnam!
+                </q>
+                <cite>
+                    Andrew Chulkov
+                </cite>
+            </div>
+            <div class="#">
+                <p>
+                    <del>
+                        This text was deleted
+                    </del>
+                    <br>
+                    <ins>
+                        This text was inserted
+                    </ins>
+                </p>
+            </div>
+            <div class="#">
+                <ol>
+                    <li><b>Definition 1:</b> A statement of the exact meaning of a word, phrase, or concept.</li>
+                    <li><b>Definition 2:</b> An exact statement or description of the nature, scope, or meaning of
+                        something.</li>
+                    <li><b>Definition 3:</b> A statement of the meaning of a word or phrase.</li>
+                    <li><b>Definition 4:</b> A statement expressing the essential nature of something.</li>
+                    <li><b>Definition 5:</b> A precise statement of the exact meaning of a word, phrase, or symbol.</li>
+                </ol>
+            </div>
+            <div class="letter">
+                <div style="float:left; padding: 1em;">
+                    <p>Jane Doe<br>
+                        123 Main Street<br>
+                        Anytown, USA</p>
+                </div>
+                <div style="float:center; padding: 200px 0; ">
+                    <p>John Smith<br>
+                        456 Maple Street<br>
+                        Anytown, USA</p>
+                </div>
+            </div>
+            <div class="#">
+                <strong>1. HTML:</strong> Hypertext Markup Language<br><br>
+                <strong>2. CSS:</strong> Cascading Style Sheets<br><br>
+                <strong>3. API:</strong> Application Programming Interface<br><br>
+                <strong>4. URL:</strong> Uniform Resource Locator<br><br>
+                <strong>5. SQL:</strong> Structured Query Language<br><br>
+                <strong>6. AJAX:</strong> Asynchronous JavaScript and XML<br><br>
+                <strong>7. SEO:</strong> Search Engine Optimization<br><br>
+                <strong>8. PDF:</strong> Portable Document Format<br><br>
+                <strong>9. UI:</strong> User Interface<br><br>
+                <strong>10. RAM:</strong> Random Access Memory
+            </div>
+            <div class="#">
+                <a href="http://www.google.com">Google</a>
+                <a href="http://www.yahoo.com">Yahoo</a>
+                <a href="http://www.altavista.com">Altavista</a>
+                <a href="http://www.lycos.com">Lycos</a>
+            </div>
+            <div class="#">
+                <a href="http://www.google.com" target="_blank">Google</a>
+                <a href="http://www.yahoo.com" target="_blank">Yahoo</a>
+                <a href="http://www.altavista.com" target="_blank">Altavista</a>
+                <a href="http://www.lycos.com" target="_blank">Lycos</a>
+                <a href="https://dzen.ru/?yredirect=true" target="_blank">Yandex</a>
+            </div>
+            <div class="#">
+                <img src="images/1.jfif" alt="Image1" title="Image 1">
+                <br><br>
+                <img src="images/2.jfif" alt="Image2" title="Image 2">
+                <br><br>
+                <img src="images/3.jfif" alt="Image3" title="Image 3">
+                <br><br>
+                <img src="images/4.jfif" alt="Image4" title="Image 4">
+                <br><br>
+                <img src="images/5.jfif" alt="Image5" title="Image 5">
+            </div>
+            <div class="#">
+                <img src="images/google.jpg" width="200" height="200">
+            </div>
+            <div class="#">
+                <a href="https://www.google.com/" target="_blank"><img src="images/google.jpg" alt="Image" width="100" height="100"></a>
+            </div>
+            <div class="#">
+                <a href="images/1.jfif" target="_blank"><img src="images/1.jfif" alt="Image" /></a>
+            </div>
+            <div>
+                <a href="#top">Jump to top of page</a>
+            </div>
+
+            <a name="bottom"></a>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
