@@ -1,13 +1,16 @@
 // 1.Сформировать массив из 15 целых чисел, выбранных случайным образом из интервала[-10, 30].Найти среднее арифметическое положительных элементов.
 
+// Создаем произвольный массив длиной 15 от [-10 до 30]
 const arr = Array.from({ length: 15 }, () => Math.floor(Math.random() * 41) - 10);
-// console.log(arr)
+console.log(arr)
 
+// Получаем только положительные числа в массиве.
 const positiveArr = arr.filter(num => num > 0);
-// console.log(positiveArr)
+console.log(positiveArr)
 
+//Среденее арифмитическое
 const mean = positiveArr.reduce((acc, curr) => acc + curr, 0) / positiveArr.length;
-// console.log(mean)
+console.log(mean)
 
 
 // 2.Заменить отрицательные элементы в числовом массиве из n чисел (n>10) их квадратами, оставив остальные без изменения.
@@ -17,7 +20,10 @@ for (let i = 0; i < arr.length; i++) {
     if (arr[i] < 0) {
         arr2[i] = arr[i] * arr[i];
     }
+    arr2[i] = arr[i]    
 }
+
+console.log(arr2);
 
 // 3.В заданном массиве найти среднее арифметическое положительных чисел, среднее арифметическое отрицательных чисел и число нулей.
 
@@ -53,4 +59,3 @@ const maxCount = Math.max(...count);
 const maxColor = colors[count.indexOf(maxCount)];
 
 // console.log(maxCount)
-// console.log(maxColor)
